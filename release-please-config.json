@@ -13,6 +13,10 @@
       "jsonpath": "$.tool.poetry.version",
       "path": "pyproject.toml",
       "type": "toml"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "type": "generic"
     }
   ],
   "include-component-in-tag": false,
