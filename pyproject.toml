@@ -8,7 +8,7 @@ readme = "README.md"
 package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.13"
 
 [build-system]
 requires = ["poetry-core"]
@@ -16,7 +16,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8"
-cmake = "^3"
+cmake = "^4"
 conan = "^2"
 brotlicffi = "^1"
 sphinx = "^8"
