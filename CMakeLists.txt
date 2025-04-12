@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.24)
 # x-release-please-start-version
 project(
     cmake_toolbelt
-    VERSION 0.1.1
+    VERSION 0.3.1
     DESCRIPTION "a small collection of CMake build functions."
     HOMEPAGE_URL "https://github.com/mmalenic/cmake-toolbelt"
 )
