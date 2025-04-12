@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.1](https://github.com/mmalenic/cmake-toolbelt/compare/v0.3.0...v0.3.1) (2025-04-12)
+
+
+### Bug Fixes
+
+* bump version on docs ([0a880d9](https://github.com/mmalenic/cmake-toolbelt/commit/0a880d91b0eac449580ab404a18e9b78ea2289dc))
+* set version in conf.py ([4067600](https://github.com/mmalenic/cmake-toolbelt/commit/4067600847787468de4a82173f5a7b2f02d74da1))
+* update version in CMakeLists.txt ([6e63558](https://github.com/mmalenic/cmake-toolbelt/commit/6e63558f5e12353a826e52fb60a0f3a84fb2673f))
+
 ## [0.3.0](https://github.com/mmalenic/cmake-toolbelt/compare/v0.2.0...v0.3.0) (2024-10-06)
 
 
