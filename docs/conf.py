@@ -2,9 +2,11 @@ from pathlib import Path
 from shutil import copy
 
 project = "cmake-toolbelt"
-copyright = "2024, Marko Malenic"
+copyright = "2025, Marko Malenic"
 author = "Marko Malenic"
+# x-release-please-start-version
 release = "0.1.0"
+# x-release-please-end
 
 extensions = [
     "sphinxcontrib.moderncmakedomain",
