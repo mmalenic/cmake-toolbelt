@@ -17,6 +17,10 @@
     {
       "path": "CMakeLists.txt",
       "type": "generic"
+    },
+    {
+      "path": "docs/conf.py",
+      "type": "generic"
     }
   ],
   "include-component-in-tag": false,
