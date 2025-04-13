@@ -38,6 +38,7 @@ FetchContent_MakeAvailable(toolbelt)
 list(APPEND CMAKE_MODULE_PATH "${toolbelt_SOURCE_DIR}/src")
 include(toolbelt)
 ```
+
 <!-- x-release-please-end -->
 
 Alternatively, copy and paste the code in the [src](https://github.com/mmalenic/cmake-toolbelt/tree/main/src) directory
