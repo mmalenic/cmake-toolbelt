@@ -474,7 +474,7 @@ resource.</p>
 <section id="embed-a-single-file">
 <h4>Embed a single file<a class="headerlink" href="#embed-a-single-file" title="Link to this heading">#</a></h4>
 <p>This example embeds a single file into an auto literal and links the generated code to <code class="code highlight cmake docutils literal highlight-cmake"><span class="nb">application</span></code>.</p>
-<div class="highlight-cmake notranslate"><div class="highlight"><pre><span></span><span class="nf">create_header_file(</span>
+<div class="highlight-cmake notranslate"><div class="highlight"><pre><span></span><span class="nf">toolbelt_embed(</span>
 <span class="w">    </span><span class="s">&quot;include_constexpr_auto.h&quot;</span>
 <span class="w">    </span><span class="s">&quot;include_constexpr_auto&quot;</span>
 <span class="w">    </span><span class="no">EMBED</span><span class="w"> </span><span class="s">&quot;embed_one.txt&quot;</span>
@@ -497,7 +497,7 @@ resource.</p>
 <section id="embed-multiple-files">
 <h4>Embed multiple files<a class="headerlink" href="#embed-multiple-files" title="Link to this heading">#</a></h4>
 <p>This example embeds multiple files into a char literal and links the generated code to <code class="code highlight cmake docutils literal highlight-cmake"><span class="nb">application</span></code>.</p>
-<div class="highlight-cmake notranslate"><div class="highlight"><pre><span></span><span class="nf">create_header_file(</span>
+<div class="highlight-cmake notranslate"><div class="highlight"><pre><span></span><span class="nf">toolbelt_embed(</span>
 <span class="w">    </span><span class="s">&quot;include_const_char.h&quot;</span>
 <span class="w">    </span><span class="s">&quot;include_const_char&quot;</span>
 <span class="w">    </span><span class="no">EMBED</span><span class="w"> </span><span class="s">&quot;embed_one.txt&quot;</span><span class="w"> </span><span class="s">&quot;embed_two.txt&quot;</span>
