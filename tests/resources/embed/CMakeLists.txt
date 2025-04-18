@@ -127,4 +127,15 @@ toolbelt_embed(
     DEFINE
 )
 
+toolbelt_embed(
+    "special_characters/define_multi.h"
+    "DEFINE_MULTI"
+    EMBED
+    "embed_one.txt"
+    "embed_two.txt"
+    TARGET
+    ${name}
+    DEFINE
+)
+
 target_include_directories(${name} PRIVATE ${cmake_toolbelt_ret})

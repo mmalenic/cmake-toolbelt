@@ -165,10 +165,10 @@ function(toolbelt_embed file variable)
 
     # Get the include guard and namespace comment.
     string(TOUPPER "${file}" header_stem)
-    string(REPLACE "." "_" def_header ${header_stem})
+    string(REGEX REPLACE "[^A-Z]+" "_" def_header ${header_stem})
 
     string(TOUPPER "${_NAMESPACE}" namespace_upper)
-    string(REPLACE "::" "_" namespace_upper "${namespace_upper}")
+    string(REGEX REPLACE "[^A-Z]+" "_" namespace_upper "${namespace_upper}")
 
     if(_CHAR_LITERAL)
         _toolbelt_embed_lines("" FALSE)
