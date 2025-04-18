@@ -67,7 +67,7 @@ The following table shows the generated code using these modes.
     | :cmake:`BYTE_ARRAY`   | .. code-block:: c++                                                   |
     |                       |    :caption: embed.h                                                  |
     |                       |                                                                       |
-    |                       |    constexpr auto variable = "This is an embedded literal.\n";        |
+    |                       |    const uint8_t byte_array[] = {0x54, 0x68, ..., 0x2e, 0x0a};        |
     +-----------------------+-----------------------------------------------------------------------+
     | :cmake:`DEFINE`       | .. code-block:: c++                                                   |
     |                       |    :caption: embed.h                                                  |
