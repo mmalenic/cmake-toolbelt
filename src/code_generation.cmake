@@ -94,7 +94,7 @@ This example embeds a single file into an auto literal and links the generated c
 
 .. code-block:: cmake
 
-   create_header_file(
+   toolbelt_embed(
        "include_constexpr_auto.h"
        "include_constexpr_auto"
        EMBED "embed_one.txt"
@@ -121,7 +121,7 @@ This example embeds multiple files into a char literal and links the generated c
 
 .. code-block:: cmake
 
-   create_header_file(
+   toolbelt_embed(
        "include_const_char.h"
        "include_const_char"
        EMBED "embed_one.txt" "embed_two.txt"
