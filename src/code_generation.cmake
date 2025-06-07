@@ -283,5 +283,7 @@ macro(_toolbelt_embed_lines line_end hex)
     string(STRIP "${enclose_start}${value}${enclose_end}" value)
 
     # No line ending for last element. Escape to treat special characters.
-    string(REGEX REPLACE "\\${line_end}$" "" value "${value}")
+    if(NOT "${line_end}" STREQUAL "")
+        string(REGEX REPLACE "\\${line_end}$" "" value "${value}")
+    endif()
 endmacro()
