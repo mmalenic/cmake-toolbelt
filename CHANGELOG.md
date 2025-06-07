@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.3](https://github.com/mmalenic/cmake-toolbelt/compare/v0.3.2...v0.3.3) (2025-06-07)
+
+
+### Bug Fixes
+
+* auto literal codegen ([#7](https://github.com/mmalenic/cmake-toolbelt/issues/7)) ([6ef0503](https://github.com/mmalenic/cmake-toolbelt/commit/6ef0503f12073b7442e0fc595a87edf714db70bb))
+* do not perform regex for empty line ending ([2c4fd05](https://github.com/mmalenic/cmake-toolbelt/commit/2c4fd0582d7c152f1990c46a0b8069394090f8e2))
+
 ## [0.3.2](https://github.com/mmalenic/cmake-toolbelt/compare/v0.3.1...v0.3.2) (2025-04-18)
 
 
