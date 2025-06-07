@@ -5,8 +5,8 @@ project = "cmake-toolbelt"
 copyright = "2025, Marko Malenic"
 author = "Marko Malenic"
 # x-release-please-start-version
-release = "0.3.2"
-version = "0.3.2"
+release = "0.3.3"
+version = "0.3.3"
 # x-release-please-end
 
 extensions = [
