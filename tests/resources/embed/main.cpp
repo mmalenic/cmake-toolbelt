@@ -23,7 +23,8 @@ int main() {
     std::cout << application::detail::auto_literal_namespace;
     std::cout << application::detail::const_literal_namespace;
     std::cout << std::string{
-        reinterpret_cast<const char *>(application::detail::byte_array_namespace
+        reinterpret_cast<const char *>(
+            application::detail::byte_array_namespace
         ),
         sizeof(application::detail::byte_array_namespace)
     };
